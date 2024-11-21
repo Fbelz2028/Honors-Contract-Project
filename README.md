@@ -81,17 +81,17 @@ FileServer.java: The server-side application that handles client connections, fi
 FileClient.java: The client-side GUI application that allows users to interact with the server.
 ## How It Works
 ### Client-Server Communication
-Commands:
+#### Commands:
 
 UPLOAD: Client requests to upload a file. <br />
 DOWNLOAD: Client requests to download a file. <br />
 LIST: Client requests the list of available files on the server. <br />
 CLEAR: Client requests to delete all files from the server. <br />
-Data Transfer:
+#### Data Transfer:
 
 Uses DataInputStream and DataOutputStream for communication.
-Files are transferred in byte streams, with progress tracked and displayed on the client GUI.
-Concurrency Handling 
+Files are transferred in byte streams, with progress tracked and displayed on the client GUI.<br />
+### Concurrency Handling 
 <br />
 Server:
 <br />
