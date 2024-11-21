@@ -108,6 +108,7 @@ SwingWorker and SwingUtilities.invokeLater are used to safely update the GUI fro
 File Already Exists:
 <br />
 * If a file being uploaded already exists on the server, the upload is aborted, and an error message is displayed.
+<br />
 File Not Found:
 <br />
 * If a file requested for download does not exist on the server, an error message is displayed.
