@@ -91,21 +91,26 @@ Data Transfer:
 
 Uses DataInputStream and DataOutputStream for communication.
 Files are transferred in byte streams, with progress tracked and displayed on the client GUI.
-Concurrency Handling
+Concurrency Handling 
+<br />
 Server:
-
+<br />
 Utilizes an ExecutorService with a fixed thread pool to handle multiple client connections concurrently.
 Each client is handled in a separate thread (ClientHandler class).
+<br />
 Client:
-
+<br />
 Uses separate threads for uploading and downloading files to prevent the GUI from freezing.
 SwingWorker and SwingUtilities.invokeLater are used to safely update the GUI from background threads.
+<br />
 Error Handling
+<br ?>
 File Already Exists:
-
+<br />
 If a file being uploaded already exists on the server, the upload is aborted, and an error message is displayed.
+<br />
 File Not Found:
-
+<br />
 If a file requested for download does not exist on the server, an error message is displayed.
 Network Errors:
 
