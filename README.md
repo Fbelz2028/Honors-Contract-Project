@@ -46,20 +46,20 @@ The client GUI should appear, displaying the list of available files on the serv
 
 ## Usage Instructions
 ### Uploading Files
-Using the Upload Button:
+**Using the Upload Button:**
 
 Click the Upload File button.
 Select a file from the file chooser dialog.
 The file will begin uploading, and the progress bar will indicate the progress.
 Once uploaded, the file will appear in the table with the status Completed.
 
-Using Drag-and-Drop:
+**Using Drag-and-Drop:**
 
 Drag a file or multiple files into the Drag and Drop Files Here panel.
 The files will begin uploading automatically.
 Note: If a file with the same name already exists on the server, an error message will be displayed, and the upload will be aborted.
 
-Downloading Files
+**Downloading Files:**
 Select a file from the table by clicking on it.
 Click the Download File button.
 Choose a directory where you want to save the file.
@@ -67,20 +67,20 @@ The file will begin downloading, and the progress bar will indicate the progress
 Once downloaded, a confirmation message will appear.
 Note: If the file already exists in the selected directory, an error message will be displayed, and the download will be aborted.
 
-Refreshing the File List
+**Refreshing the File List: <br />**
 Click the Refresh File List button to update the table with the latest files available on the server.
 
-Clearing Files
+**Clearing Files: <br />**
 Click the Clear Files button to delete all files from the server.
 A confirmation dialog will appear. Click Yes to proceed or No to cancel.
 Upon confirmation, all files will be deleted from the server, and the table will be cleared.
 Warning: This action cannot be undone and will affect all clients connected to the server.
 
 ### Project Structure
-FileServer.java: The server-side application that handles client connections, file storage, and command processing.
+FileServer.java: The server-side application that handles client connections, file storage, and command processing. <br />
 FileClient.java: The client-side GUI application that allows users to interact with the server.
 ## How It Works
-Client-Server Communication
+### Client-Server Communication
 Commands:
 
 UPLOAD: Client requests to upload a file.
