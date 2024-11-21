@@ -18,43 +18,41 @@ File Management: Stores uploaded files and serves files requested by clients.
 Command Handling: Processes commands like UPLOAD, DOWNLOAD, LIST, and CLEAR.
 
 ## Getting Started
-1. Download the Source Code - 
+### 1. Download the Source Code - 
 Download the FileClient.java and FileServer.java files and save them in a directory of your choice.
 
-2. Compile the Code - 
+### 2. Compile the Code - 
 Open a terminal or command prompt, navigate to the directory containing the source code, and compile both Java files:
 
-### How to compile
+#### How to compile
 javac FileServer.java
 javac FileClient.java
 
-3. Run the Server
+### 3. Run the Server
 Start the server by running:
 
-bash
-Copy code
 java FileServer
-You should see the following output indicating that the server is running:
 
-arduino
-Copy code
+You should see the following output indicating that the server is running: 
+
 Server is running on port 42069
-4. Run the Client
+
+### 4. Run the Client
 In a new terminal or command prompt window (keeping the server running), start the client:
 
-bash
-Copy code
 java FileClient
+
 The client GUI should appear, displaying the list of available files on the server.
 
-Usage Instructions
-Uploading Files
+## Usage Instructions
+### Uploading Files
 Using the Upload Button:
 
 Click the Upload File button.
 Select a file from the file chooser dialog.
 The file will begin uploading, and the progress bar will indicate the progress.
 Once uploaded, the file will appear in the table with the status Completed.
+
 Using Drag-and-Drop:
 
 Drag a file or multiple files into the Drag and Drop Files Here panel.
@@ -71,16 +69,17 @@ Note: If the file already exists in the selected directory, an error message wil
 
 Refreshing the File List
 Click the Refresh File List button to update the table with the latest files available on the server.
+
 Clearing Files
 Click the Clear Files button to delete all files from the server.
 A confirmation dialog will appear. Click Yes to proceed or No to cancel.
 Upon confirmation, all files will be deleted from the server, and the table will be cleared.
 Warning: This action cannot be undone and will affect all clients connected to the server.
 
-Project Structure
+### Project Structure
 FileServer.java: The server-side application that handles client connections, file storage, and command processing.
 FileClient.java: The client-side GUI application that allows users to interact with the server.
-How It Works
+## How It Works
 Client-Server Communication
 Commands:
 
