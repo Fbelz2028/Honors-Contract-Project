@@ -1,4 +1,4 @@
-#File Transfer Client-Server Application
+# File Transfer Client-Server Application
 Overview
 This project is a Java-based client-server application that allows users to upload, download, and manage files between a client GUI and a server. It features a complex Graphical User Interface (GUI) for the client, network communication over sockets, file input/output operations, and concurrency handling on both the client and server sides.
 
