@@ -25,7 +25,7 @@ Download the FileClient.java and FileServer.java files and save them in a direct
 Open a terminal or command prompt, navigate to the directory containing the source code, and compile both Java files:
 
 #### How to compile
-javac FileServer.java
+javac FileServer.java <br />
 javac FileClient.java
 
 ### 3. Run the Server
