@@ -96,13 +96,12 @@ Concurrency Handling
 Server:
 <br />
 * Utilizes an ExecutorService with a fixed thread pool to handle multiple client connections concurrently.
-<br />
 * Each client is handled in a separate thread (ClientHandler class).
 <br />
 Client:
 <br />
 * Uses separate threads for uploading and downloading files to prevent the GUI from freezing.
-S* wingWorker and SwingUtilities.invokeLater are used to safely update the GUI from background threads.
+* SwingWorker and SwingUtilities.invokeLater are used to safely update the GUI from background threads.
 <br />
 ## Error Handling
 <br />
