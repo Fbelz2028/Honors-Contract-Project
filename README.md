@@ -96,7 +96,7 @@ Concurrency Handling
 Server:
 <br />
 Utilizes an ExecutorService with a fixed thread pool to handle multiple client connections concurrently.
-Each client is handled in a separate thread (ClientHandler class).
+<br /> Each client is handled in a separate thread (ClientHandler class).
 <br />
 Client:
 <br />
@@ -104,7 +104,7 @@ Uses separate threads for uploading and downloading files to prevent the GUI fro
 SwingWorker and SwingUtilities.invokeLater are used to safely update the GUI from background threads.
 <br />
 Error Handling
-<br ?>
+<br />
 File Already Exists:
 <br />
 If a file being uploaded already exists on the server, the upload is aborted, and an error message is displayed.
