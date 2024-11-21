@@ -83,10 +83,10 @@ FileClient.java: The client-side GUI application that allows users to interact w
 ### Client-Server Communication
 Commands:
 
-UPLOAD: Client requests to upload a file.
-DOWNLOAD: Client requests to download a file.
-LIST: Client requests the list of available files on the server.
-CLEAR: Client requests to delete all files from the server.
+UPLOAD: Client requests to upload a file. <br />
+DOWNLOAD: Client requests to download a file. <br />
+LIST: Client requests the list of available files on the server. <br />
+CLEAR: Client requests to delete all files from the server. <br />
 Data Transfer:
 
 Uses DataInputStream and DataOutputStream for communication.
