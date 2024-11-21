@@ -113,4 +113,5 @@ File Not Found:
 * If a file requested for download does not exist on the server, an error message is displayed.
   <br />
 Network Errors:
+<br />
 * Any network communication errors are caught and handled gracefully, with appropriate messages displayed to the user.
