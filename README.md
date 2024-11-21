@@ -59,7 +59,7 @@ Drag a file or multiple files into the Drag and Drop Files Here panel.
 The files will begin uploading automatically.
 Note: If a file with the same name already exists on the server, an error message will be displayed, and the upload will be aborted.
 
-**Downloading Files:**
+**Downloading Files:** <br />
 Select a file from the table by clicking on it.
 Click the Download File button.
 Choose a directory where you want to save the file.
