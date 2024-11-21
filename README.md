@@ -16,20 +16,18 @@ Server:
 Concurrent Connections: Handles multiple client connections simultaneously using a thread pool.
 File Management: Stores uploaded files and serves files requested by clients.
 Command Handling: Processes commands like UPLOAD, DOWNLOAD, LIST, and CLEAR.
-Requirements
-Java Development Kit (JDK): Version 8 or higher.
-Operating System: Compatible with Windows, macOS, or Linux.
-Getting Started
-1. Download the Source Code
+
+## Getting Started
+1. Download the Source Code - 
 Download the FileClient.java and FileServer.java files and save them in a directory of your choice.
 
-2. Compile the Code
+2. Compile the Code - 
 Open a terminal or command prompt, navigate to the directory containing the source code, and compile both Java files:
 
-bash
-Copy code
+### How to compile
 javac FileServer.java
 javac FileClient.java
+
 3. Run the Server
 Start the server by running:
 
