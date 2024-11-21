@@ -111,7 +111,7 @@ If a file being uploaded already exists on the server, the upload is aborted, an
 <br />
 File Not Found:
 <br />
-*If a file requested for download does not exist on the server, an error message is displayed.
+* If a file requested for download does not exist on the server, an error message is displayed.
 Network Errors:
 
-*Any network communication errors are caught and handled gracefully, with appropriate messages displayed to the user.
+* Any network communication errors are caught and handled gracefully, with appropriate messages displayed to the user.
